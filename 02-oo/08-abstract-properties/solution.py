@@ -18,7 +18,7 @@ class Rectangle(Shape):
     def __init__(self, length, width):
         self.__length = length
         self.__width = width
-
+        
     @property
     def length(self):
         return self.__length
